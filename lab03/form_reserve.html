@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie-edge">
+ <!-- <title>CSS</title> -->
+ <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+ <title>Hotel Booking</title>
+</head>
+<body>
+ <h3>Hotel Booking</h3>
+ <form method="POST" action="https://angsila.cs.buu.ac.th/~wittawas/632/88726059/lab02/afile.php">
+ <table>
+    <tr>
+        <td><label for="roomtype">Room Type</label><br></td> <td> <select name="roomtype" style="width: 370px;">
+            <option value="0">Please Select </option>
+            <option value="1">Stadrad</option>
+            <option value="2">Luxury</option>
+            <option value="3">Deluxe</option>
+            </select></td>
+    </tr>
+    <tr>
+        <td><label for="numguest">Number of Gueste</label><br></td> <td> 
+            <select name="numguest" style="width: 370px;">
+            <option value="0">Please Select </option>
+            <option value="1-2">1-2</option>
+            <option value="3-4">3-4</option>
+            <option value="5-6">5-6</option>
+            <option value="7-8">7-8</option>
+            </select></td>
+    </tr>
+    <tr>
+        <td><label for="name">Name</label></td> 
+        <td><input type="text" name="fame" id="fame" style="width: 170px;"> &nbsp;
+            <input type="text" name="lname" id="lname" style="width: 170px;"></td> 
+    </tr>
+    <tr>
+        <td><label for="email">Email</label></td> 
+        <td><input type="text" name="email" id="email"style="width: 360px;"></td>
+    </tr>
+    <tr>
+        <td><label for="start">Arrival</label><br>
+        <td><input type="date" id="start" name="arrivaldate"style="width: 175px;">&nbsp;
+            <input type="time" id="start" name="arrivaltime"style="width: 175px;"></td>
+    </tr>
+    <tr>
+        <td> <label for="departure">Departure</label><br>
+        <td><input type="date" id="start" name="departuredate"style="width: 175px;">&nbsp;
+            <input type="time" id="start" name="departuretime"style="width: 175px;"></td>
+    </tr>
+    <tr>
+        <td><label for="picknum">Free Pickup</label></td> 
+        <td><input type="radio" name="picknum" id="picknum" value="Yes">Yes, Sure! 
+            <br>
+            <input type="radio" name="picknum" id="picknum" value="No">No, I already rented a car.
+        </td>
+    </tr>
+    <tr>
+        <td><label for="flightnum">Flight Number</label></td> 
+        <td><input type="text" name="flightnum" id="flightnum" style="width: 360px;"></td>
+    </tr>
+    <tr>
+        <td>Other requests</td> 
+        <td><Textarea name="otherreq" id="comment" rows="5" cols="50" style="width: 360px;"></Textarea></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td colspan="2"><input type="submit" value="Complete Reservation"></td>
+    </tr>
+
+</table>
+ </form>
+
+    <CENTER><a href="timetable.html">TIME TABLE</a></CENTER>>
+    <CENTER><a href="enroll.html"></a>ENROLL</CENTER> 
+    <CENTER><a href="gallery.html"></a>GALLERY</CENTER>
+</body>
+</html>
