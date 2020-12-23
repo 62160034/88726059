@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multi_62160034</title>
+</head>
+<script>
+    function multi(n) {
+        div = document.getElementById('mul');
+        div.innerHTML = ""; // 
+        for (i = 1; i <= 12; i++) {
+            div.innerHTML += n + "x" + i + "=" + (n * i) + "<br>";
+        }
+    }
+    
+</script>
+
+<body>
+    <th>2.โปรแกรม สูตรคูณ - multi.html</th><br><br>
+    <input type="text" placeholder="สูตรคูณแม่ x" onkeyup="multi(this.value);"><br><br>
+    <div id="mul" ></div>
+</body>
+</html>

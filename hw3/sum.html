@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cal_62160034</title>
+</head>
+<script>
+    function Calculate(){
+        n1 = document.getElementById('n1');
+        n2 = document.getElementById('n2');
+        var result = document.getElementById('result');
+        num =document.getElementById('num');
+        if(parseInt(num.value) == 1){
+            result.innerHTML=parseInt(n1.value) + parseInt(n2.value)
+        }
+        if(parseInt(num.value) == 2){
+            result.innerHTML=parseInt(n1.value) - parseInt(n2.value)
+        }
+        if(parseInt(num.value) == 3){
+            result.innerHTML=parseInt(n1.value) * parseInt(n2.value)
+        }
+        if(parseInt(num.value) == 4){
+            result.innerHTML=parseInt(n1.value) / parseInt(n2.value)
+        }
+       
+   
+    } 
+</script>
+
+<body>
+    <th>3.โปรแกรม เครื่องคิดเลข - cal.html</th><br><br>
+    <input type="text"  id="n1">
+    <select name="mark" id="num">
+    <option value="1" >+</option>
+    <option value="2" >-</option>
+    <option value="3" >*</option>
+    <option value="4" >/</option>
+    </select>
+    <input type="text"  id="n2">
+    <button onclick="Calculate()">=</button><br>
+    <div id="result"></div>
+    
+</body>
+</html>

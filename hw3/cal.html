@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multi_62160034</title>
+<script>
+        function summary(){
+              sum = document.getElementById('sum').innerHTML="";
+              n1 = document.getElementById('n1');
+              n2 = document.getElementById('n2');
+              sum = document.getElementById('sum');
+              var p = 0;
+        for ( let i = parseInt(n1.value);i<=parseInt(n2.value);i++) {
+            p = p+i;
+            sum.innerHTML +=i
+            if(i<parseInt(n2.value)){
+                
+                sum.innerHTML += "+"
+            }
+            if(i==parseInt(n2.value)){
+                sum.innerHTML += "=" 
+                sum.innerHTML += p
+            }
+          
+        }
+        
+    }
+</script>
+</head>
+<body>
+    <th>4.โปรแกรม บวกสะสม - sum.html</th><br><br>
+    <input type="text" placeholder="ใส่ตัวเลขที่ต้องการ" id="n1"> -  
+    <input type="text" placeholder="ใส่ตัวเลขที่ต้องการ" id="n2">
+    <button onclick="summary()">=</button>
+    <div id="sum"></div>
+
+</body>
+</html>
