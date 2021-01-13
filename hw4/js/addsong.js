@@ -12,6 +12,8 @@ function addsong(){
             lyrics = document.getElementById('lyrics').value
         ];
             songs.push(data);
+
+localStorage.clear();
         
         localStorage.setItem('songs',JSON.stringify(songs));
         document.getElementById('addsong').value =''
@@ -26,4 +28,4 @@ function Clearform(){
     document.getElementById('lyrics').value =''
 }
 
-localStorage.clear();
+// localStorage.clear();
