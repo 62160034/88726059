@@ -1,6 +1,6 @@
 function addsong(){
         songs = localStorage.getItem('songs');
-        if(songs === null){
+        if(songs == 'null'){
             songs = [];
             
         }else{
@@ -12,8 +12,6 @@ function addsong(){
             lyrics = document.getElementById('lyrics').value
         ];
             songs.push(data);
-
-localStorage.clear();
         
         localStorage.setItem('songs',JSON.stringify(songs));
         document.getElementById('addsong').value =''
@@ -28,4 +26,4 @@ function Clearform(){
     document.getElementById('lyrics').value =''
 }
 
-// localStorage.clear();
+localStorage.clear();
