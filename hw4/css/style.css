@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Font';
+    src:url('FC Home Regular ver 1.01.otf') format('opentype');
+}
+.a1 {
+    border-radius: 6px;
+    margin: auto;
+    width: 26%;
+    border: 2px solid rgb(105, 157, 255);
+    background:rgb(75, 201, 233);
+    padding: 10px;
+    font-family: "Font", monospace;
+    font-size:20px;
+}
+
+#b1 {
+   margin: auto;
+    width: 40%;
+}
+html { 
+    background: url(BG1.jpg) no-repeat center fixed; 
+    background-size: cover;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+.button {
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: inherit; 
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: "Font", monospace;
+}
+.button1 {
+    border-color: #3fb943;
+    color: green;
+  }
+  
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+.button3 {
+    border-color: #e23737;
+    color: red;
+} 
+.button3:hover {
+    background: #f44336;
+    color: white;
+ }
+.card{
+    border-radius: 6px;
+    margin: auto;
+    width: 100%;
+    border: 2px solid rgb(252, 209, 209);
+    background:rgb(243, 127, 127);
+    padding: 10px;
+ }
+ .alert{
+    border-radius: 6px;
+    margin: auto;
+    width: 100%;
+    border: 2px solid rgb(252, 209, 209);
+    background:rgb(243, 127, 127);
+    padding: 10px;
+ }
