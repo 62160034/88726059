@@ -1,3 +1,8 @@
+var songs = JSON.parse(localStorage.getItem("songs"))
+        if(songs == null){
+            localStorage.setItem("songs",songs)
+            songs = [];
+        }
 function addsong(){
         songs = localStorage.getItem('songs');
         if(songs == 'null'){
