@@ -1,0 +1,56 @@
+div {
+    margin: auto;
+    font-family: 'Mali', cursive;
+    width: 80%;
+    font-size:25px;
+}
+html {
+    color:#1a508b;
+    margin: auto;
+    background: url(bg1.jpg); 
+
+}
+#a1 {
+    text-align: center; 
+    font-size:25px;
+    padding: 10px;
+    background:#fff3e6;
+}
+#a2 {
+    text-align: center; 
+    font-size:40px;
+    color:#c1a1d3;
+    font-weight:bold;
+}
+.b1 {
+    padding: 15px;
+    text-align: center; 
+    background:#0d335d;
+}
+div.b1{
+    margin: auto;
+    width: 30%;
+}
+tr th, tr td{
+    padding:5px;
+    text-align: center; 
+    border: 3px solid #c1a1d3;
+    font-size:25px;
+}
+td{
+	font-weight:bold;
+}
+.button {
+    border-radius: 10px;
+    background-color: #cd5d7d;
+    border: none;
+    color: #f6ecf0;
+    padding: 10px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+

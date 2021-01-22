@@ -1,0 +1,36 @@
+html{
+    margin: auto;
+    background: url(bg1.jpg);
+    font-family: 'Mali', cursive;
+}
+div {
+    margin: auto;
+    font-family: 'Mali', cursive;
+    width: 80%;
+    font-size:15px;
+}
+#a1 {
+    text-align: center; 
+    font-size:30px;
+    padding: 5px;
+    background:#fff3e6;
+    font-weight:bold;
+}
+/* #a2{
+    width: 200px;
+    text-align: center;
+    background:#ebb3c3;
+    color: #a7c5eb;
+    font-size: 16pt;
+    border-style: dashed;
+    border-color: #ec4646
+    margin: auto;
+} */
+.b1{
+    font-size:20px;
+    color: #ec4646;
+}
+.b2{
+    color: #cd5d7d; 
+    font-size:20px;
+}

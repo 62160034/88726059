@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Mali&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>คำนวณปีนักษัตรของคุณ</title>
+</head>
+<body>
+
+<div id="a1">
+    <p>คำนวณปีนักษัตรของคุณ</p>
+    <i class="b2">มาเช็คปีนักษัตรของคุณกันดีกว่า!!! </i>
+    <hr>
+    <p class="b1">กรุณาพิมพ์ ปี ค.ศ. เกิดของคุณ ในช่องด้านล่าง</p>
+    <p align="center"><script LANGUAGE="JavaScript">
+    
+    function getZodiac () {
+        var toyear = 1997;
+        var birthyear = document.frm.inyear.value;
+        var birthZodiac="Ox"
+  
+        x = (toyear - birthyear) % 12
+        if ((x == 1) || (x == -11)) {
+            birthZodiac="Yaer of Rat"      }
+            else  {
+                if (x == 0)             {
+                    birthZodiac="Yaer of Ox"           }
+                    else  {
+                        if ((x == 11) || (x == -1)) {
+                            birthZodiac="Yaer of Tiger"          }
+                            else  {
+                                if ((x == 10) || (x == -2)) {
+                                    birthZodiac="Yaer of Rabbit"         }
+                                    else  {
+                                        if ((x == 9) || (x == -3))  {
+                                            birthZodiac="Yaer of Great Snake"         }
+                                            else  {
+                                                if ((x == 8) || (x == -4))  { 
+                                                    birthZodiac="Yaer of Snake"          }
+                                                    else  {
+                                                        if ((x == 7) || (x == -5))  { 
+                                                            birthZodiac="Yaer of Horse"          }
+                                                            else  {
+                                                                if ((x == 6) || (x == -6))  { 
+                                                                    birthZodiac="Yaer of Goat"          }
+                                                                    else  {
+                                                                        if ((x == 5) || (x == -7))  {  
+                                                                            birthZodiac="Yaer of Monkey"         }
+                                                                            else  {
+                                                                                if ((x == 4) || (x == -8))  {
+                                                                                    birthZodiac="Yaer of Cock"        }
+                                                                                    else  {
+                                                                                        if ((x == 3) || (x == -9))  {
+                                                                                            birthZodiac="Yaer of Dog"            }
+                                                                                            else  {
+                                                                                                if ((x == 2) || (x == -10))  {
+                                                                                                    birthZodiac="Yaer of Pig"             }  
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                        document.frm.birth.value = birthZodiac;
+                                                    }
+                                                    </script>
+    <form NAME="frm">
+        <p align="center" >
+            <input TYPE="text" SIZE="4" NAME="inyear" 
+            style="color: #663f3f; 
+            width: 200px; 
+            font-size: 16pt; 
+            background-color: #bbf1fa; 
+            border-style: dashed; 
+            border-color: #51c2d5;
+            font-family: 'Mali', cursive;
+            font-weight:bold;"> 
+        
+            <input TYPE="button" VALUE="ดูปีนักษัตร" onClick="getZodiac()" 
+            style="color: #cd5d7d; 
+            font-size: 16pt; 
+            background-color: #f6ecf0; 
+            font-family: 'Mali', cursive;
+            font-weight:bold;">
+            <br>
+        </p>
+        
+        <p align="center">
+        <input TYPE="text" SIZE="9" NAME="birth" 
+            style="border:2px dotted #654062; 
+            font-family: 'Mali', cursive;
+            font-size: 24pt; 
+            text-align: center; 
+            font-weight:bold;
+            color: #654062; 
+            width: 400px; 
+            height: 200px;
+            background-color: #ffd66b; "> 
+        </p>
+      </form>
+</div>
+</body>
+</html>
