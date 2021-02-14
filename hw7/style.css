@@ -1,0 +1,32 @@
+html { 
+    background-color: #d4e2d4; 
+    color: #583d72;
+} 
+.btn{
+    border-radius: 14px;
+    border: none;
+    padding: 10px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #df7861;
+    font-size:12px;
+}
+.btn1 {
+  color: #d3e0dc;
+    
+  }
+  
+.btn1:hover {
+    background-color: #df7861;
+    color: #9f5f80;
+  }
+.btn2 {
+
+    color: #fcd1d1;
+  }
+  
+.btn2:hover {
+    background-color: #df7861;
+    color: #9f5f80;
+  }
